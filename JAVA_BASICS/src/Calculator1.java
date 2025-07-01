@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Calculator1 {
 
     public void add(int a, int b) {
@@ -29,5 +31,9 @@ public class Calculator1 {
         calc.sub(x, y);
         calc.multiply(x, y);
         calc.div(x, y);
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the name");
+        int input=sc.nextInt();
+        System.out.println(input);
     }
 }
