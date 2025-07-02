@@ -35,5 +35,8 @@ public class Calculator1 {
         System.out.println("enter the name");
         int input=sc.nextInt();
         System.out.println(input);
+
+        //NextInt: for integer value
+        //NextLine: for string value
     }
 }
